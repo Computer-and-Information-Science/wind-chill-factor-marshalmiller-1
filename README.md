@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10633475)
 # Wind Chill Factor
 
 Write a program that inputs the current temperature, the temperature scale (c for Celsius or f for Fahrenheit), and the wind speed in miles per hour, then calculates and outputs the wind chill factor using the same temperature scale as that which was entered as input. Temperature and wind speed may include decimal places. Temperature output should use one decimal place. You may assume that input will be valid and the scale will be entered in lowercase.
