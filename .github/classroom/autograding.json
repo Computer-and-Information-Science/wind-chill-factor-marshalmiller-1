@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "35\r\nf\r\n15",
+      "output": "Wind chill factor is 25.4F.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 2",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "-2\r\nc\r\n20",
+      "output": "Wind chill factor is -9.3C.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 3",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "12\r\nf\r\n15",
+      "output": "Wind chill factor is -4.0F.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Test 4",
+      "setup": "g++ main.cpp",
+      "run": "./a.out",
+      "input": "2\r\nc\r\n35",
+      "output": "Wind chill factor is -5.8C.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
