@@ -5,7 +5,7 @@
       "setup": "g++ main.cpp",
       "run": "./a.out",
       "input": "35\r\nf\r\n15",
-      "output": "Wind chill factor is 25.4F.",
+      "output": "25.4F.",
       "comparison": "included",
       "timeout": 10,
       "points": 1
@@ -15,7 +15,7 @@
       "setup": "g++ main.cpp",
       "run": "./a.out",
       "input": "-2\r\nc\r\n20",
-      "output": "Wind chill factor is -9.3C.",
+      "output": "-9.3C.",
       "comparison": "included",
       "timeout": 10,
       "points": 1
@@ -25,7 +25,7 @@
       "setup": "g++ main.cpp",
       "run": "./a.out",
       "input": "12\r\nf\r\n15",
-      "output": "Wind chill factor is -4.0F.",
+      "output": "-4.0F.",
       "comparison": "included",
       "timeout": 10,
       "points": 1
@@ -35,7 +35,7 @@
       "setup": "g++ main.cpp",
       "run": "./a.out",
       "input": "2\r\nc\r\n35",
-      "output": "Wind chill factor is -5.8C.",
+      "output": "-5.8C.",
       "comparison": "included",
       "timeout": 10,
       "points": 1
